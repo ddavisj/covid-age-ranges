@@ -12,6 +12,7 @@ import GetData from './GetData';
 const fetchOptions = [5, 10, 15, 25, 50, 100, 250, 500, 1000];
 const filterOptions = [
    'All',
+   '0-9',
    '10-19',
    '20-29',
    '30-39',
@@ -20,6 +21,7 @@ const filterOptions = [
    '60-69',
    '70-79',
    '80-89',
+   '90+',
 ];
 
 const App = () => {

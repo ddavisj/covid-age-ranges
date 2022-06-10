@@ -17,11 +17,19 @@ footer p {
    height: auto;
 }
 
-div.hero {
-   padding-bottom: 3rem !important;
-}
-
 div.show-records {
    padding-top: 15px;
    padding-bottom: 15px;
+}
+
+@media screen and (max-width: 767px) {
+   div.hero {
+      padding-bottom: 0 !important;
+   }
+}
+
+@media screen and (min-width: 768px) {
+   div.hero {
+      padding-bottom: 3rem !important;
+   }
 }
