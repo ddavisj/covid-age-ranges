@@ -1,0 +1,27 @@
+main > .container {
+   padding-top: 60px;
+}
+
+.bg-custom {
+   background-color: silver;
+   color: black !important;
+}
+
+footer p {
+   margin-bottom: 0;
+   color: black;
+}
+
+.hero img {
+   max-width: 30%;
+   height: auto;
+}
+
+div.hero {
+   padding-bottom: 3rem !important;
+}
+
+div.show-records {
+   padding-top: 15px;
+   padding-bottom: 15px;
+}
