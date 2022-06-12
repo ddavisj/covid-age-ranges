@@ -5,7 +5,7 @@ const Content = () => {
       <main className="container">
          <div className="p-4 p-md-5 mb-4 text-white rounded bg-dark">
             <div className="col-md-12 px-0">
-               <h1 className="display-4 fst-italic">Data Source</h1>
+               <h1 className="display-4 fst-italic">About This Data</h1>
                <p className="lead my-3">
                   This app pulls Covid age-range data from a{' '}
                   <a
@@ -14,9 +14,14 @@ const Content = () => {
                      target="_blank"
                      rel="noreferrer"
                   >
-                     Victoria government API
+                     Victorian government API
                   </a>
                   .
+               </p>
+               <p className="lead my-3">
+                  You can view either a selection of the raw records or a
+                  breakdown of the records by age range. The records tab can
+                  also be filtered by age range.
                </p>
                <p className="lead mb-0"></p>
             </div>

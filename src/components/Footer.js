@@ -12,7 +12,7 @@ const Footer = () => {
                      rel="noreferrer"
                      target="_blank"
                   >
-                     View Portfolio
+                     Portfolio
                   </a>
                </p>
             </span>

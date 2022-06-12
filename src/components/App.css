@@ -17,19 +17,32 @@ footer p {
    height: auto;
 }
 
-div.show-records {
-   padding-top: 15px;
-   padding-bottom: 15px;
-}
-
 @media screen and (max-width: 767px) {
    div.hero {
       padding-bottom: 0 !important;
    }
 }
 
-@media screen and (min-width: 768px) {
-   div.hero {
-      padding-bottom: 3rem !important;
-   }
+.show-records hr {
+   width: 37%;
+}
+
+.show-records p.records-subtitle {
+   font-size: 14px;
+}
+
+.tab-header {
+   padding: 1.5rem;
+   border-width: 1px;
+   border-top-left-radius: 0.25rem;
+   border-top-right-radius: 0.25rem;
+   position: relative;
+   /* margin: 1rem -0.75rem 0; */
+   /* T RL B */
+   border: solid #dee2e6;
+}
+
+.highlight {
+   padding-top: 1rem;
+   background-color: #f8f9fa;
 }
