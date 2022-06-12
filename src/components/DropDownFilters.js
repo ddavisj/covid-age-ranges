@@ -36,7 +36,7 @@ const DropdDownFilters = ({
                </Dropdown.Menu>
             </Dropdown>
          </div>
-         {location.pathname !== '/ranges' && (
+         {location.pathname === '/' && (
             <div className="btn-group">
                <Dropdown>
                   <Dropdown.Toggle variant="secondary" id="dropdown-basic">

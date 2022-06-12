@@ -7,7 +7,7 @@ const ShowRecords = ({ records, filterOption }) => {
 
    // Warning if no records shown once filtered
    const warning = () => {
-      if (!filteredRecords.length && filterOption !== 'All Age Ranges') {
+      if (!filteredRecords.length && filterOption !== 'All Ages') {
          return 'No matching records, try another bracket or fetch more records';
       }
    };
@@ -19,7 +19,7 @@ const ShowRecords = ({ records, filterOption }) => {
 
    // .. Show records if records not filtered
    const showAllRecords = () => {
-      if (filterOption === 'All Age Ranges') {
+      if (filterOption === 'All Ages') {
          return records.map((record, i) => {
             return (
                i < 15 && (
@@ -34,7 +34,7 @@ const ShowRecords = ({ records, filterOption }) => {
 
    // .. or show filtered records
    const showFilteredResults = () => {
-      if (filterOption !== 'All Age Ranges') {
+      if (filterOption !== 'All Ages') {
          return filteredRecords.map((record, i) => {
             return (
                i < 15 && (
@@ -54,7 +54,8 @@ const ShowRecords = ({ records, filterOption }) => {
          <div>{showAllRecords()}</div>
          {warning()}
          {showFilteredResults()}
-         {records.length > 15 ? (
+         {(records.length > 15 && filterOption === 'All Ages') ||
+         (filteredRecords.length > 15 && filterOption !== 'All Ages') ? (
             <>
                <hr />
                <p className="records-subtitle">[Max 15 records displayed]</p>

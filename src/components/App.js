@@ -18,7 +18,7 @@ import GetData from './GetData';
 const App = () => {
    const fetchOptions = [5, 10, 15, 25, 50, 100, 250, 500, 1000];
    const filterOptions = [
-      'All Age Ranges',
+      'All Ages',
       '0-9',
       '10-19',
       '20-29',
