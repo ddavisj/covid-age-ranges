@@ -19,7 +19,7 @@ const Content = () => {
                   .
                </p>
                <p className="lead my-3">
-                  View either a selection of the raw records or a breakdown by age range. Records can also be filtered by age range.
+                  View either a selection of the raw records or a breakdown by age range. Records can also be filtered by age.
                </p>
                <p className="lead mb-0"></p>
             </div>
