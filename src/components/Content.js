@@ -19,9 +19,7 @@ const Content = () => {
                   .
                </p>
                <p className="lead my-3">
-                  You can view either a selection of the raw records or a
-                  breakdown of the records by age range. The records tab can
-                  also be filtered by age range.
+                  View either a selection of the raw records or a breakdown by age range. Records can also be filtered by age range.
                </p>
                <p className="lead mb-0"></p>
             </div>
